@@ -1,0 +1,57 @@
+baseURL = "http://localhost:1313/"
+title = "Timothy Gurule"
+
+# Post Settings
+paginate = "3"
+summaryLength = "15"
+disqusShortname = "" # get your shortname form here : https://disqus.com
+
+# Google Analytics
+googleAnalytics = "" # example : UA-123-45
+
+# Unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+# Colors
+[params.variables]
+primary_color = "#4d79ff"
+text_color = "#777777"
+text_color_dark = "#222222"
+body_color = "#FFFFFF"
+border_color = "#ECECEC"
+black = "#000000"
+white = "#FFFFFF"
+light = "#e6ecff"
+
+# Fonts
+# Give your font name from Google Fonts. Add font weight using ":wght@" and separate by ";"
+# example: "Work Sans:wght@400;500;600"
+primary_font = "Lato:wght@400"
+primary_font_type = "sans-serif" # [serif/sans-serif]
+
+# Icons
+icon_font = "Font Awesome 5 Free"
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.slim.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+# [[params.plugins.js]]
+# link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
+# attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
